@@ -7,6 +7,7 @@ from nltk.util import trigrams
 # Reading file
 file = open("corpus.txt", 'r', encoding="utf-8")
 text = file.read()
+file.close()
 
 # Tokenization
 tokenizer = WhitespaceTokenizer()
